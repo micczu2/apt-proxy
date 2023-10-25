@@ -152,7 +152,7 @@ Usage of apt-proxy:
   -alpine string
     	the alpine mirror for fetching packages
   -cachedir string
-    	the dir to store cache data in (default "./.aptcache")
+    	the dir to store cache data in (default "./cache")
   -centos string
     	the centos mirror for fetching packages
   -debian string
