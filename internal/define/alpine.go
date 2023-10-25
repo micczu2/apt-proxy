@@ -9,14 +9,14 @@ const ALPINE_BENCHMAKR_URL = "MIRRORS.txt"
 // https://mirrors.alpinelinux.org/ 2022.11.19
 // Sites that contain protocol headers, restrict access to resources using that protocol
 var ALPINE_OFFICIAL_MIRRORS = []string{
-	"mirrors.tuna.tsinghua.edu.cn/alpine/",
-	"mirrors.ustc.edu.cn/alpine/",
-	"mirrors.nju.edu.cn/alpine/",
-	// offline "mirror.lzu.edu.cn/alpine/",
-	"mirrors.sjtug.sjtu.edu.cn/alpine/",
-	"mirrors.aliyun.com/alpine/",
-	// not vaild "mirrors.bfsu.edu.cn/alpine",
-	// offline "mirrors.neusoft.edu.cn/alpine/",
+	"alpine.sakamoto.pl/alpine/",
+	"ftp.icm.edu.pl/pub/Linux/distributions/alpine/",
+	"mirror.fel.cvut.cz/alpine/",
+//	"dl-cdn.alpinelinux.org/alpine/", //some cert issues?
+	"mirror.leaseweb.com/alpine/",
+	"ftp.halifax.rwth-aachen.de/alpine/",
+	"ftp.acc.umu.se/mirror/alpinelinux.org/",
+//	"eu.edge.kernel.org/alpine/", //some signature issues; "BAD signature"
 }
 
 var ALPINE_CUSTOM_MIRRORS = []string{}

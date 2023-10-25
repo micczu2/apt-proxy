@@ -8,7 +8,7 @@ import (
 )
 
 func TestGetAndSetAlpineMirror(t *testing.T) {
-	State.SetAlpineMirror("https://mirrors.tuna.tsinghua.edu.cn/alpine/")
+	State.SetAlpineMirror("https://alpine.sakamoto.pl/alpine/")
 	mirror := State.GetAlpineMirror()
 	if !strings.Contains(strings.ToLower(mirror.Path), "alpine") {
 		t.Fatal("Test Set/Get Alpine Mirror Value Faild")

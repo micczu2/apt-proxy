@@ -14,7 +14,7 @@ const (
 	DEFAULT_UBUNTU_MIRROR = "" // "https://mirrors.tuna.tsinghua.edu.cn/ubuntu/"
 	DEFAULT_DEBIAN_MIRROR = "" // "https://mirrors.tuna.tsinghua.edu.cn/debian/"
 	DEFAULT_CENTOS_MIRROR = "" // "https://mirrors.tuna.tsinghua.edu.cn/centos/"
-	DEFAULT_ALPINE_MIRROR = "" // "https://mirrors.tuna.tsinghua.edu.cn/alpine/"
+	DEFAULT_ALPINE_MIRROR = "" // "https:/alpine.sakamoto.pl/alpine/"
 	DEFAULT_MODE_NAME     = Define.LINUX_ALL_DISTROS
 	DEFAULT_DEBUG         = false
 )
