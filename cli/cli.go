@@ -10,7 +10,7 @@ import (
 const (
 	DEFAULT_HOST          = "0.0.0.0"
 	DEFAULT_PORT          = "3142"
-	DEFAULT_CACHE_DIR     = "./.aptcache"
+	DEFAULT_CACHE_DIR     = "./cache"
 	DEFAULT_UBUNTU_MIRROR = "" // "https://mirrors.tuna.tsinghua.edu.cn/ubuntu/"
 	DEFAULT_DEBIAN_MIRROR = "" // "https://mirrors.tuna.tsinghua.edu.cn/debian/"
 	DEFAULT_CENTOS_MIRROR = "" // "https://mirrors.tuna.tsinghua.edu.cn/centos/"
